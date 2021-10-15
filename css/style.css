@@ -80,7 +80,19 @@ main section:last-child::after {
     margin: 15px 15px 15px 0;
     background-size: cover;
     background-position:center ;
-    height: 250px;
+}
+
+.opacity2{
+    height:250px ;  
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.first_article::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .second_article {
