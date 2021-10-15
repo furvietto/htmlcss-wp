@@ -57,7 +57,7 @@ section div.bottom-left{
 }
 
 main section:last-child {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 main section:last-child::after,
@@ -75,6 +75,10 @@ main section:last-child::after,
 
 .color_grey{
     color: grey;
+
+}
+div.float div {
+    float: left;     
 }
 
 .first_article {
@@ -120,16 +124,13 @@ h3{
     margin: 15px 0;
 }
 
-
-div.float div {
-    float: left;     
-}
-
 footer div {
-    height: 100px;
-    background-color: #8801FE;
+   text-align: center;
 }
 
-/* colori */
+.hearts{
+    color: red;
+    font-size: 2em;
+}
 
 
